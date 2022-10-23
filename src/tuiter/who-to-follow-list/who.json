@@ -1,0 +1,20 @@
+[
+  {
+    "_id": 123,
+    "userName": "NASA",
+    "handle": "NASA",
+    "avatarIcon": "https://imgs.search.brave.com/mkymsPM7u6hfPl5A9Tx0zQCRKJ27NRBiGkwpzhmbQcY/rs:fit:1200:998:1/g:ce/aHR0cHM6Ly9taXIt/czMtY2RuLWNmLmJl/aGFuY2UubmV0L3By/b2plY3RfbW9kdWxl/cy9tYXhfMTIwMC9l/ZDE5YjUzNjEzNzg3/MS41NzEwNTE2Mzk0/ZTZiLmpwZw"
+  },
+  {
+    "_id": 234,
+    "userName": "Tesla",
+    "handle": "tesla",
+    "avatarIcon": "https://imgs.search.brave.com/G6IRnk5E-nzUbTkbWj9nWnbWrJkjGHJlZaTJk2ZgzU4/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9leHRl/cm5hbC1wcmV2aWV3/LnJlZGQuaXQvMWhF/Q2FSd0xXSk9HVWFI/cEd5NmoyWlRLSmMx/MExnd0dzOXpKemxT/c1ZESS5qcGc_YXV0/bz13ZWJwJnM9Mjc2/MzQ0ODUzNDcxOGVj/MzczMjQ3MjcwNTUw/YmFmODVhOTM3YmIy/NA"
+  },
+  {
+    "_id": 345,
+    "userName": "SpaceX",
+    "handle": "SpaceX",
+    "avatarIcon": "https://imgs.search.brave.com/JKDkrEPDJH8sZpfKg6PREpotMjurAwQqyhRB5GGWWEo/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9tZWRp/YS1leHAxLmxpY2Ru/LmNvbS9kbXMvaW1h/Z2UvQzU2MEJBUUVi/cUxRLUpFMHZkUS9j/b21wYW55LWxvZ29f/MjAwXzIwMC8wP2U9/MjE1OTAyNDQwMCZ2/PWJldGEmdD1LbXRE/VW5nTGpLVklxanNq/WjljM0lFTnd1blFB/R2thdTNfQVpoOXJT/ZU9n"
+  }
+]
