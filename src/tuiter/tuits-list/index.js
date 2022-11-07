@@ -1,6 +1,6 @@
 import React from "react";
 import TuitItem from "./tuit-item"
-import tuit from "../tuits/tuits.json"
+// import tuit from "../tuits/tuits.json"
 import {useSelector} from "react-redux";
 
 const TuitList = () => {

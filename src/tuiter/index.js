@@ -1,5 +1,5 @@
 import React from "react";
-import ExploreComponent from "./explore";
+// import ExploreComponent from "./explore";
 import HomeComponent from "./home";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";

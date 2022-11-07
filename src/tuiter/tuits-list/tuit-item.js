@@ -22,7 +22,7 @@ const TuitItem = ({tuit}
                 <div className="col-10">
                     <i className="bi bi-x-lg float-end"
                        onClick={() => deleteTuitHandler(tuit._id)}></i>
-                    <div><b>{tuit.userName}</b> <img src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png" width="15px" height="15px"/> {tuit.handle} - {tuit.time}</div>
+                    <div><b>{tuit.userName}</b> <img alt={tuit.alt} src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png" width="15px" height="15px"/> {tuit.handle} - {tuit.time}</div>
                     <div>{tuit.tuit}</div>
                     <div className={"row"}>
                         <div className="col-3">
