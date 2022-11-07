@@ -10,6 +10,7 @@
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
     "eslint": "8.22.0",
+    "font-awesome": "^4.7.0",
     "git": "^0.1.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

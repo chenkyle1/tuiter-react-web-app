@@ -1,0 +1,48 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "https://imgs.search.brave.com/JKDkrEPDJH8sZpfKg6PREpotMjurAwQqyhRB5GGWWEo/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9tZWRp/YS1leHAxLmxpY2Ru/LmNvbS9kbXMvaW1h/Z2UvQzU2MEJBUUVi/cUxRLUpFMHZkUS9j/b21wYW55LWxvZ29f/MjAwXzIwMC8wP2U9/MjE1OTAyNDQwMCZ2/PWJldGEmdD1LbXRE/VW5nTGpLVklxanNq/WjljM0lFTnd1blFB/R2thdTNfQVpoOXJT/ZU9n",
+    "alt" : "Profile picture of space x",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+
+  {
+    "_id": 123,
+    "topic": "Tesla",
+    "userName": "Tesla",
+    "time": "5h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "https://imgs.search.brave.com/G6IRnk5E-nzUbTkbWj9nWnbWrJkjGHJlZaTJk2ZgzU4/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9leHRl/cm5hbC1wcmV2aWV3/LnJlZGQuaXQvMWhF/Q2FSd0xXSk9HVWFI/cEd5NmoyWlRLSmMx/MExnd0dzOXpKemxT/c1ZESS5qcGc_YXV0/bz13ZWJwJnM9Mjc2/MzQ0ODUzNDcxOGVj/MzczMjQ3MjcwNTUw/YmFmODVhOTM3YmIy/NA",
+    "alt" : "Profile picture of space x",
+    "liked": false,
+    "replies": 232,
+    "retuits": 123,
+    "likes": 345,
+    "handle": "@Tesla",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 456,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "8h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "https://imgs.search.brave.com/JKDkrEPDJH8sZpfKg6PREpotMjurAwQqyhRB5GGWWEo/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9tZWRp/YS1leHAxLmxpY2Ru/LmNvbS9kbXMvaW1h/Z2UvQzU2MEJBUUVi/cUxRLUpFMHZkUS9j/b21wYW55LWxvZ29f/MjAwXzIwMC8wP2U9/MjE1OTAyNDQwMCZ2/PWJldGEmdD1LbXRE/VW5nTGpLVklxanNq/WjljM0lFTnd1blFB/R2thdTNfQVpoOXJT/ZU9n",
+    "alt" : "Profile picture of space x",
+    "liked": true,
+    "replies": 123,
+    "retuits": 643,
+    "likes": 736,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  }
+]
