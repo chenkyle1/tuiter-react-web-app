@@ -14,7 +14,7 @@ const WhatsHappening = () => {
     return (
         <div className="row">
             <div className="col-auto">
-                <img alt="Profile picture of NASA" src="https://imgs.search.brave.com/np7ViaA8mFdQf_xjYsz3sqqCTiWs39e-H9-pvah_uGE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzljL2Iy/Lzg2LzljYjI4NjNh/MDA5YjQ5ZmNjMDMx/NjEwMzJlOWU1YmFm/LnBuZw" width={60} height={60}/>
+                <img alt="Profile pic of NASA" src="https://imgs.search.brave.com/np7ViaA8mFdQf_xjYsz3sqqCTiWs39e-H9-pvah_uGE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzljL2Iy/Lzg2LzljYjI4NjNh/MDA5YjQ5ZmNjMDMx/NjEwMzJlOWU1YmFm/LnBuZw" width={60} height={60}/>
             </div>
             <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"

@@ -26,16 +26,16 @@ const TuitItem = ({tuit}
                     <div>{tuit.tuit}</div>
                     <div className={"row"}>
                         <div className="col-3">
-                            <p className="wd-count float-left"><input type="image" src="https://cdn-icons-png.flaticon.com/512/2462/2462719.png" width="18px" height="18px" name="saveForm" className="btTxt submit" id="saveForm"/> {tuit.replies}</p>
+                            <p className="wd-count float-left"><input type="image" alt="replies" src="https://cdn-icons-png.flaticon.com/512/2462/2462719.png" width="18px" height="18px" name="saveForm" className="btTxt submit" id="saveForm"/> {tuit.replies}</p>
                         </div>
                         <div className="col-3">
-                            <p className="wd-count float-left"><input type="image" src="https://cdn-icons-png.flaticon.com/512/2515/2515846.png" width="22px" height="22px" name="saveForm" className="btTxt submit" id="saveForm"/> {tuit.retuits}</p>
+                            <p className="wd-count float-left"><input type="image" alt="retuites" src="https://cdn-icons-png.flaticon.com/512/2515/2515846.png" width="22px" height="22px" name="saveForm" className="btTxt submit" id="saveForm"/> {tuit.retuits}</p>
                         </div>
                         <div className="col-3">
-                            <p className="wd-count float-left"><input type="image" src={heart} width="20px" height="20px" name="saveForm" className="btTxt submit" id="saveForm"/> {tuit.likes}</p>
+                            <p className="wd-count float-left"><input type="image" alt="likes" src={heart} width="20px" height="20px" name="saveForm" className="btTxt submit" id="saveForm"/> {tuit.likes}</p>
                         </div>
                         <div className="col-3">
-                            <p className="wd-count float-left"><input type="image" src="https://as1.ftcdn.net/v2/jpg/03/05/39/60/1000_F_305396000_ii7fvVVRqfo4AAhxCA2Oxpiy3Hci0nZY.jpg" width="25px" height="25px" name="saveForm" className="btTxt submit" id="saveForm"/></p>
+                            <p className="wd-count float-left"><input type="image" alt="share" src="https://as1.ftcdn.net/v2/jpg/03/05/39/60/1000_F_305396000_ii7fvVVRqfo4AAhxCA2Oxpiy3Hci0nZY.jpg" width="25px" height="25px" name="saveForm" className="btTxt submit" id="saveForm"/></p>
                         </div>
                     </div>
 
