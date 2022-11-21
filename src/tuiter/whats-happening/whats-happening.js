@@ -18,6 +18,7 @@ const WhatsHappening = () => {
             "dislikes": 0,
             "replies": 0,
             "retuits": 0,
+            "time": "0h",
             "tuit": whatsHappening
 
         }
