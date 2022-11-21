@@ -1,15 +1,27 @@
-import {createTuit} from "../tuits/tuits-reducer";
+import {createTuitThunk}
+    from "../../services/tuits-thunks";
 import {useDispatch} from "react-redux";
 import React, {useState} from "react";
+
 
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
         const newTuit = {
-            tuit: whatsHappening
+            "username": "NASA",
+            "handle": "@nasa",
+            "image": "https://imgs.search.brave.com/np7ViaA8mFdQf_xjYsz3sqqCTiWs39e-H9-pvah_uGE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzljL2Iy/Lzg2LzljYjI4NjNh/MDA5YjQ5ZmNjMDMx/NjEwMzJlOWU1YmFm/LnBuZw",
+            "liked": false,
+            "likes": 0,
+            "disliked": false,
+            "dislikes": 0,
+            "replies": 0,
+            "retuits": 0,
+            "tuit": whatsHappening
+
         }
-        dispatch(createTuit(newTuit));
+        dispatch(createTuitThunk(newTuit));
     }
     return (
         <div className="row">

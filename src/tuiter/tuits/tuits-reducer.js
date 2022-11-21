@@ -1,25 +1,68 @@
-import { createSlice } from "@reduxjs/toolkit";
+import {createSlice}
+ from "@reduxjs/toolkit";
 import tuits from './tuits.json';
+import {updateTuitThunk, createTuitThunk, deleteTuitThunk, findTuitsThunk}
+ from "../../services/tuits-thunks";
 
+const initialState = {
+ tuits: [],
+ loading: false
+}
 const currentUser = {
- "userName": "NASA",
- "handle": "@nasa",
- "image": "https://imgs.search.brave.com/bEt8pZy-hJFXXBPd8Bur6O9iVHkuslhQ2czHCy5qYOA/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL25hc2EtbG9n/by1wbmctbmFzYS1s/b2dvLTE2NjQucG5n",
+    "userName": "NASA",
+    "handle": "@nasa",
+    "image": "nasa.png",
 };
 
 const templateTuit = {
- ...currentUser,
- "topic": "Space",
- "time": "2h",
- "liked": false,
- "replies": 0,
- "retuits": 0,
- "likes": 0,
+    ...currentUser,
+    "topic": "Space",
+    "time": "2h",
+    "liked": false,
+    "replies": 0,
+    "retuits": 0,
+    "likes": 0,
 }
+
 
 const tuitsSlice = createSlice({
  name: 'tuits',
- initialState: tuits,
+ initialState,
+ extraReducers: {
+  [findTuitsThunk.pending]:
+      (state) => {
+       state.loading = true;
+       state.tuits = []
+      },
+  [findTuitsThunk.fulfilled]:
+      (state, { payload }) => {
+       state.loading = false;
+       state.tuits = payload
+      },
+  [findTuitsThunk.rejected]:
+      (state) => {
+       state.loading = false;
+      },
+  [deleteTuitThunk.fulfilled]:
+      (state, { payload }) => {
+      state.loading = false;
+          state.tuits = state.tuits.filter(t => t._id !== payload);
+      },
+  [createTuitThunk.fulfilled]:
+      (state, { payload }) => {
+      state.loading = false;
+      state.tuits.push(payload);
+      },
+  [updateTuitThunk.fulfilled]:
+      (state, { payload }) => {
+      state.loading = false
+          const tuitNdx = state.tuits.findIndex((t) => t._id === payload._id)
+          state.tuits[tuitNdx] = {
+          ...state.tuits[tuitNdx],
+          ...payload
+      }
+  }
+ },
  reducers: {
   deleteTuit(state, action) {
    const index = state
@@ -27,7 +70,6 @@ const tuitsSlice = createSlice({
            tuit._id === action.payload);
    state.splice(index, 1);
   },
-
   createTuit(state, action) {
    state.unshift({
     ...action.payload,
