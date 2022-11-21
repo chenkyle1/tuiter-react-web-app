@@ -2,7 +2,7 @@ import React from "react";
 
 const NavigationSidebar = (
     {
-        active = 'explore'
+        active = 'home'
     }
 ) => {
     return (
@@ -12,7 +12,7 @@ const NavigationSidebar = (
                     ${active === 'home'?'active':''}`}>
                 Home
             </a>
-            <a href="tuiter/navigation.html" className={`list-group-item
+            <a href="tuiter/explore" className={`list-group-item
                     ${active === 'explore'?'active':''}`}>
                 Explore
             </a>
