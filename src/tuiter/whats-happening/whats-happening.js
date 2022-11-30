@@ -20,6 +20,7 @@ const WhatsHappening = () => {
             "retuits": 0,
             "time": "0h",
             "tuit": whatsHappening
+
         }
         dispatch(createTuitThunk(newTuit));
     }
